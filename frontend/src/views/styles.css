@@ -1,0 +1,104 @@
+nav {
+ position: relative;
+}
+nav,
+.dropdown-item,
+.dropdown-toggle {
+  font-size: 25px;
+  font-weight: bold;
+}
+.navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+}
+.divimgcard,
+.imgcard {
+  width: 100%;
+  height: 350px;
+}
+.tarjeta {
+  width: 19rem;
+  height: 36rem;
+}
+.divbtncompra {
+  height: auto;
+}
+.btn {
+  background-color: rgb(247, 220, 111);
+  color: black;
+}
+.btn:hover {
+  background-color: rgb(247, 218, 57);
+}
+.carrusel {
+  max-width: 450px;
+  max-height: 600px;
+}
+.imgcarrusel {
+  width: 100%;
+  height: 600px;
+}
+.imgLogin{
+  position: relative;
+}
+.imgDocumento,.imgLogin{
+  width: 100%;
+  height: 99%;
+
+}
+.divImgDocumento{
+  height: 700px;
+}
+.divImgLogin{
+  height: 600px;
+}
+.inicioSesion{
+  width: 100%;
+  height: 600px;
+}
+.compraDocumento{
+  width: 90%;
+  height: 700px;
+
+}
+
+.imgRegistro {
+  width: 700px;
+  height: 100%;
+}
+#titulo {
+  font-size: 34px;
+  font-weight: bold;
+}
+.link {
+  text-decoration: none;
+  color: rgb(247, 218, 57);
+}
+.registro{
+    height: auto;
+}
+
+.collage{
+  width: 100%;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: max-content;
+}
+
+.imgCollage{
+  width: 300px;
+  height: 600px;
+  
+}
+
+
+
+@media (min-width: 800px) {
+  #titulo {
+    font-size: 65px;
+  }
+  .opcionesNav{
+    margin:0px 80px;
+  }
+}
+
